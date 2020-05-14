@@ -1,0 +1,220 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.flex-w-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+header nav {
+    margin: 17px 0;
+}
+.header-link {
+    margin-right: 32px;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+}
+
+.header-link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+main{
+    background: #f5f5f5;
+}
+.header-content{
+    padding: 100px 0;
+}
+.header-content .contact-info{
+    margin-right: 65px;
+}
+.header-content input {
+    border: #fff;
+}
+
+.hc-input-top {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.input-top-right{
+    width: 50%;
+    padding-left: 30px;
+}
+.input-top-right input {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+}
+.input-top-left{
+    width: 50%;
+}
+.input-top-left input {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+}
+
+.hc-input-top ::placeholder {
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #787878;
+    padding: 19px 0 18px 7px;
+}
+.hc-input-middle{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.hc-input-middle input{
+    width: 100%;
+    height: 48px;
+    background: #fff;
+}
+.hc-input-middle input::placeholder{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #787878;
+    padding: 19px 0 18px 7px;
+}
+.hc-input-bottom{
+    margin-top: 30px;
+}
+.hc-input-bottom textarea{
+    border: #fff;
+    height: 170px;
+    overflow: hidden;
+    resize: none;
+}
+.hc-input-bottom textarea::placeholder{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #787878;
+    padding: 19px 0 140px 7px;
+}
+.hc-input-bottom button{
+    background: #007d2f;
+    margin: 30px 0 0 0;
+    width: 160px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact-info h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 30px;
+    color: #171717;
+    line-height: 21px;
+    margin-bottom: 32px;
+}
+.contact-info p{
+    line-height: 24px;
+    font-family: 'NunitoSans-Regular';
+    font-size: 16px;
+    color: #787878;
+    margin-bottom: 37px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: #787878;
+    font-size: 16px;
+    font-family: 'NunitoSans-Regular';
+    line-height: 36px;
+}
+.contact-info a:hover{
+    color: #787878;
+    cursor: pointer;
+}
+.contact-info span{
+    color: #171717;
+    font-size: 16px;
+    font-family: 'NunitoSans-Bold';
+
+}
+.contact-info span:hover{
+    text-decoration: none;
+}
+footer {
+    background: #000;
+    margin-top: 100px;
+}
+footer .container{
+    padding: 100px 0;
+}
+.footer1 h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer1 p{
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #fff;
+}
+.footer2 p{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #fff;
+}
+.footer3-1{
+    margin-right: 30px;
+}
+.footer3-2{
+    margin-right: 30px;
+}
+.footer3 a{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+main .container.map{
+    height: 470px;
+}
